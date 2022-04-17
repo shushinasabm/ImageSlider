@@ -3,50 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport">
+    <title>ImageSlider</title>
+
     <link href="main.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/addeb18436.js" crossorigin="anonymous"></script>
-    <title>ImageSlider</title>
     <link rel="icon" type="image/x-icon" href="./media/icon.png">
 </head>
 <body>
-<div id="root">
-    <div id="main">
-        <div id="center">
-            <div class="imagLeft d-none">
-                <img class="photoHeader img-none" src="/media/pic1.jpg">
-                <h4 class="text-header">Hello Saeed</h4>
-                <img class="photos-main" src="/media/photo1.jpeg">
-                <p class="text-none text-ph">
-
+<div id="main">
+    <div class="full-slider">
+        <div class="slides" id="slides">
+            <div class="side-image image-left">
+                <img class="image-logo" src="/media/pic1.jpg">
+                <h4 class="image-title">Hello Saeed</h4>
+                <img class="image-main" src="/media/photo1.jpeg">
+                <p class="image-description">
                     And a parakeet instead.
                 </p>
             </div>
-            <div class="imageCenter">
-                <img class="photoHeader" src="media/pic2.jpg">
-                <h4 class="text-header">Hello Mojtaba</h4>
-                <div class="loader">
-                    <img class="photoCenter photos-main" src="media/photo2.jpeg">
-                </div>
-                <p class="text-ph">
+            <div class="center-image image-center">
+                <img class="image-logo" src="media/pic2.jpg">
+                <h4 class="image-title">Hello Mojtaba</h4>
+                <img class="image-main" src="media/photo2.jpeg">
+                <p class="image-description">
                     I came home with a puppy.
-
                 </p>
             </div>
-            <div class="imageRight d-none">
-                <img class="photoHeader img-none" src="media/pic3.jpg">
-                <h4 class="text-header">Hello Mohammad</h4>
-                <img class="photos-main" src="media/photo3.jpeg">
-                <p class="text-none text-ph">
-                    I came home with a puppy
+            <div class="side-image image-right">
+                <img class="image-logo" src="/media/pic3.jpg">
+                <h4 class="image-title">Hello Mohammad</h4>
+                <img class="image-main" src="/media/photo3.jpeg">
+                <p class="image-description">
+                    I came home with a puppy.<br>
                     And a parakeet instead.
+
                 </p>
             </div>
         </div>
-
-
-        <div id="footer">
-            <div class="leftButton"><i class="fa-solid fa-arrow-left-long"></i></div>
-            <div class="rightButton"><i class="fa-solid fa-arrow-right-long"></i></div>
+        <div class="slider-actions">
+            <div class="leftButton button"><i class="fa-solid fa-arrow-left-long"></i></div>
+            <div class="rightButton button"><i class="fa-solid fa-arrow-right-long"></i></div>
         </div>
     </div>
 </div>
